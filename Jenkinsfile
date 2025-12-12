@@ -6,7 +6,7 @@ pipeline {
         AWS_DEFAULT_REGION="us-east-1"
         IMAGE_REPO_NAME="image_repo"
         IMAGE_TAG= "${env.BUILD_ID}"
-        REPOSITORY_URI = "915962094583.dkr.ecr.us-east-1.amazonaws.com/image_repo"
+        REPOSITORY_URI = "560765037311.dkr.ecr.us-east-1.amazonaws.com/image_repo"
         MAVEN_OPTS="--add-opens java.base/java.lang=ALL-UNNAMED"
     }
     stages {
